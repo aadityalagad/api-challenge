@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => res.send("welcome to the api"));
 
-app.post("/solve", (req, res) => {
+app.post("/challenge", (req, res) => {
     try {
         let arr = req.body.array;
 
