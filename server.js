@@ -30,9 +30,11 @@ app.post("/solve", (req, res) => {
         });
 
         res.json({
-            status: true,
-            name: "Abc",
+            is_success: true,
+            user_id: "Aditya Lagad",
             count: numbers.length + alphabets.length,
+            email: "adityalagad030@gmail.com",
+            roll_number: "31247",
             numbers,
             alphabets,
         });
